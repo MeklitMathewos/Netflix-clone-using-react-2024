@@ -1,10 +1,10 @@
-import React from 'react'
-import "./header.css"
-import Netflixlogo from"../../assets/images/Netflix Logo.jpg"
- import SearchIcon from '@mui/icons-material/Search';
- import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
- import AccountBoxIcon from "@mui/icons-material/AccountBox";
- import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import React from "react";
+import "./header.css";
+import Netflixlogo from "../../assets/images/Netflix Logo.jpg";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 function Header() {
   return (
     <div className="header-outer-continer">
@@ -45,4 +45,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;
